@@ -12,7 +12,7 @@ from plyer import notification
 import schedule
 import traceback
 
-NEWSAPI_KEY = "1ab33ceb85fd4fca95ffe901348f191c"   
+NEWSAPI_KEY = "your_api_key"   
 DB_PATH = "users.db"
 NOTIFICATION_LIMIT = 4
 MORNING_TIME = "09:00"
@@ -539,3 +539,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
